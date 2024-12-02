@@ -1,0 +1,139 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     flex-wrap: wrap; 
+    background-color:burlywood;
+    z-index: 1;
+    position: sticky;
+    overflow: hidden;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+.nav2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.nav2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.body 
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: fit-content;
+    position: relative;
+    margin: auto;
+}
+img{
+    height: 50vh;
+    width: 20vw;
+}
+.pics img{
+    height: 50vh;
+    width: 88vw;
+}
+.body div{
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    font-size: 50%;
+    overflow: hidden;
+}
+.li
+{
+  text-align: center;
+  font-size: large;
+  margin: center;
+  display: inline-flex;
+  margin-left: 40%;
+  gap: 5vw;
+
+}
+.li div:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.about 
+{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+}
+.footer
+{
+    display: flex;
+    overflow: hidden;
+}
+.footer div
+{
+   height: 40vh;
+   width: auto;
+}
+.footer div img{
+    height: 5vh;
+    width: 5vw;
+}
+.footer div button:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+.body div p:hover
+{
+    background-color:rgb(136, 136, 239);
+    color: aliceblue;
+}
+.body div button:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+.body div h2:hover
+{
+    background-color: rgb(247, 65, 101);
+    color: aliceblue;
+}
+.footer div h1:hover
+{
+    background-color: rgb(247, 65, 101);
+    color: aliceblue;
+}
+.footer div  p:hover
+{
+    background-color:rgb(136, 136, 239);
+    color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;  
+}
+input{
+    height:80px ;
+}
+form input {
+    height: 5vh;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
